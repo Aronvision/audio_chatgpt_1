@@ -1,0 +1,20 @@
+<package format="3">
+  <name>audio_chatgpt</name>
+  <version>0.0.0</version>
+  <description>STT 결과를 ChatGPT로 보내는 ROS 2 노드</description>
+  <maintainer email="your.email@example.com">Your Name</maintainer>
+  <license>Apache License 2.0</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>openai</exec_depend>
+  <exec_depend>audio_stt</exec_depend>
+  
+   <export>
+    <build_type>ament_python</build_type>
+  </export>
+  
+  <!-- 필요한 추가 의존성 -->
+</package>
